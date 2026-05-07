@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://bva5qgwp8vlo2"]
+
+[ext_resource type="Script" uid="uid://diuwg4cw0uw2j" path="res://script/UI/slot_select.gd" id="1_vb54k"]
+
+[node name="slotSelectChar" type="Panel" unique_id=185109341]
+custom_minimum_size = Vector2(80, 80)
+offset_right = 80.0
+offset_bottom = 80.0
+script = ExtResource("1_vb54k")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1762047316]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -40.0
+offset_top = -40.0
+offset_right = 40.0
+offset_bottom = 40.0
+grow_horizontal = 2
+grow_vertical = 2
