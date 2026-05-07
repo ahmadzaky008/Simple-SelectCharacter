@@ -1,7 +1,7 @@
 extends Panel
 
 @export var texture_character : CharSelect = null
-@export var player_id : String = ""
+@export var player_id : String = "" #ambil key yang tadi di simpan di CharacterDB 
 @onready var slot_select : Panel = $"."
 var is_pressed = false
 
