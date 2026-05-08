@@ -2,7 +2,7 @@ extends Control
 
 var debug_text = false
 
-func _on_button_pressed() -> void:
+func _on_play_pressed() -> void:
 	if CharacterDB.currrent_char == "":
 		$LabelDebug.visible = true
 		$Timer.start()
