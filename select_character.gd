@@ -3,7 +3,7 @@ extends Control
 var debug_text = false
 
 func _on_play_pressed() -> void:
-	if CharacterDB.currrent_char == "":
+	if CharacterDB.currrent_char == "": #mengecek apakah character sudah di select atau belum
 		$LabelDebug.visible = true
 		$Timer.start()
 		return
