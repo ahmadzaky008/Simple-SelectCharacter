@@ -1,6 +1,6 @@
 extends Panel
 
-@export var texture_character : CharSelect = null
+@export var texture_character : CharSelect = null # tambahkan resource untuk icon tampilan ui
 @export var player_id : String = "" #ambil id yang tadi di simpan di CharacterDB contoh "player001" 
 @onready var slot_select : Panel = $"."
 var is_pressed = false
